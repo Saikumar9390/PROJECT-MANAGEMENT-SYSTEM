@@ -1,0 +1,6 @@
+CREATE TABLE files (
+  id INT(11) AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  size INT(11) NOT NULL,
+  downloads INT(11) NOT NULL
+);

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="t.css">
+	<title></title>
+</head>
+<body style="background-image: url(https://www.som.polimi.it/wp-content/uploads/2020/03/Docenti_Online_1200x510-1024x435.png);background-repeat: no-repeat;background-size: cover;margin-top: 100px;">
+<div class="row a" style="margin-left: 30px;
+	">
+	<div class="col-3 ">
+		<button id="myButton" class="btn btn-dark ">ADD BATCH</button>
+	</div>
+	<div class="col-4 ">
+		<button id="Button" class="btn btn-dark" >VIEW BATCH DETAILS </button>
+	</div>
+	<div class="col-3 ">
+		<button id="my" class="btn btn-dark" >VIEW PROJECTS</button>
+	</div>
+	<div class="col-2 " style="">
+		<button id="But" class="btn btn-dark" >LOGOUT</button>
+	</div>
+	
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "std_reg.php";
+    };
+</script>
+<script type="text/javascript">
+    document.getElementById("Button").onclick = function () {
+        location.href = "view_students.php";
+    };
+</script>
+<script type="text/javascript">
+    document.getElementById("But").onclick = function () {
+        location.href = "logout1.php";
+    };
+</script>
+<script type="text/javascript">
+    document.getElementById("my").onclick = function () {
+        location.href = "index1.php";
+    };
+</script>
